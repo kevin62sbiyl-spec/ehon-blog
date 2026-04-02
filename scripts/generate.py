@@ -11,9 +11,6 @@
 import anthropic, json, os, re, sys, time
 from datetime import datetime, timedelta
 from pathlib import Path
-from dotenv import load_dotenv
-
-load_dotenv(Path(__file__).parent.parent / ".env")
 
 # ── 設定 ──────────────────────────────────────────────────────
 BASE_DIR  = Path(__file__).parent.parent
@@ -157,8 +154,33 @@ def generate_content(theme: str, category: str) -> dict:
         if any(k in theme for k in deep_keywords) \
         else "噛み砕き型（初心者向け・わかりやすい言葉と具体例で解説）"
 
-    system = f"""あなたは「社会人教養ブログ」の専門家AIです。
+    system = f"""あなたは「社会人教養ブログ」の専門家AIチームです。
 カテゴリ「{category}」の記事を{style}で生成します。
+
+【AI組織の役割分担】
+- 編集長：記事の方針・構成を決定
+- ライター：本文を執筆（面白さで勝負）
+- ファクトチェッカー：年号・人名・書籍情報・歴史的事実を厳密に確認
+- SEO担当：キーワード・タイトル・メタ情報を最適化
+
+【ファクトチェック必須ルール】
+- 年号・人名・地名は必ず正確に記載
+- 書籍名・著者名は原典に忠実に
+- 「〜と言われている」など曖昧な表現は使わず根拠を明示
+- 不確かな情報は記載しない
+
+【面白さの必須ルール】
+- 各セクションに必ず「へえ！」となる具体的エピソードを1つ入れる
+- 冒頭は読者の「あるある」な疑問・悩みから始める
+- 抽象論だけで終わらず必ず現代生活への示唆で締める
+- 数字・固有名詞・具体例を積極的に使う
+
+【視覚強調ルール】
+- point_box：各セクションの核心を1〜3行でまとめたボックス
+- highlight：特に重要な一文（各セクション1つ）
+- profile：人物紹介がある場合はプロフィール情報
+- key_facts：数字・年号など覚えておくべき重要データ（3〜5個）
+
 以下のJSON形式のみで返してください（前置き・コードブロック不要）。
 
 {{
@@ -170,11 +192,22 @@ def generate_content(theme: str, category: str) -> dict:
   "tags": ["タグ1","タグ2","タグ3"],
   "reading_time": 10,
   "style": "{style}",
+  "profile": {{
+    "name": "記事の主人公となる人物名（なければ空文字）",
+    "birth_death": "生没年（例：1724〜1804）",
+    "nationality": "国籍・出身",
+    "known_for": "代表的な業績・著作（50文字）"
+  }},
+  "key_facts": [
+    {{"label": "データラベル", "value": "具体的な数字・年号・事実"}}
+  ],
   "intro": "読者の疑問・興味から始まる導入文（280文字）",
   "sections": [
     {{
       "h2": "セクション見出し",
-      "body": "本文（500文字以上。具体例・歴史的事実・現代への示唆を含む）",
+      "body": "本文（500文字以上。具体的エピソード・歴史的事実・現代への示唆を含む）",
+      "highlight": "このセクションで最も重要な一文（60文字以内）",
+      "point_box": "核心をまとめたポイント（80文字以内）",
       "h3s": [
         {{"h3": "小見出し", "body": "本文（200文字）"}}
       ]
@@ -192,13 +225,13 @@ def generate_content(theme: str, category: str) -> dict:
   "related_themes": ["関連テーマ1","関連テーマ2","関連テーマ3"]
 }}
 
-sectionsは5つ作成。各bodyは必ず500文字以上。book_recommendationsは2〜3冊。"""
+sectionsは5つ作成。各bodyは必ず500文字以上。book_recommendationsは2〜3冊。key_factsは3〜5個。"""
 
     for attempt in range(3):
         try:
             msg = client.messages.create(
                 model="claude-opus-4-5",
-                max_tokens=8000,
+                max_tokens=5000,
                 system=system,
                 messages=[{"role": "user", "content": f"テーマ：「{theme}」\nカテゴリ：{category}\n\n記事を生成してください。"}]
             )
@@ -284,9 +317,32 @@ def generate_article_html(data: dict, date_str: str, all_posts: list) -> tuple:
         for i, sec in enumerate(data.get("sections", []))
     ])
 
+    # プロフィールカード
+    profile = data.get("profile", {})
+    profile_html = ""
+    if profile.get("name"):
+        profile_html = f'<div class="profile-card"><div class="profile-icon">{profile["name"][0]}</div><div class="profile-info"><p class="profile-name">{profile["name"]}</p><p class="profile-meta">{profile.get("birth_death","")} ／ {profile.get("nationality","")}</p><p class="profile-known">{profile.get("known_for","")}</p></div></div>'
+
+    # キーファクト
+    key_facts = data.get("key_facts", [])
+    keyfact_html = ""
+    if key_facts:
+        items = "".join([f'<div class="kf-item"><span class="kf-label">{f["label"]}</span><span class="kf-value">{f["value"]}</span></div>' for f in key_facts])
+        keyfact_html = f'<div class="key-facts">{items}</div>'
+
     body_html = f'<p class="intro">{data["intro"]}</p>'
+    if profile_html:
+        body_html += profile_html
+    if keyfact_html:
+        body_html += keyfact_html
+
     for i, sec in enumerate(data.get("sections", [])):
-        body_html += f'<h2 id="s{i}">{sec["h2"]}</h2><p>{sec["body"]}</p>'
+        body_html += f'<h2 id="s{i}">{sec["h2"]}</h2>'
+        if sec.get("highlight"):
+            body_html += f'<p class="highlight-text">{sec["highlight"]}</p>'
+        body_html += f'<p>{sec["body"]}</p>'
+        if sec.get("point_box"):
+            body_html += f'<div class="point-box"><span class="point-label">POINT</span><p>{sec["point_box"]}</p></div>'
         for h3 in sec.get("h3s", []):
             body_html += f'<h3>{h3["h3"]}</h3><p>{h3["body"]}</p>'
 
@@ -355,7 +411,6 @@ def generate_article_html(data: dict, date_str: str, all_posts: list) -> tuple:
         <a href="{yt_ch}" target="_blank" rel="noopener" class="yt-btn">チャンネルを見る →</a>
       </div>
     </div>
-    <div class="youtube-titles"><p class="section-label">🎬 動画タイトル候補</p><ol>{yt_titles_html}</ol></div>
     <div class="book-section"><p class="section-label">📚 おすすめ書籍</p>{books_html}</div>
     <div class="related-section"><p class="section-label">関連記事</p><div class="related-cards">{related_html}</div></div>
   </article>
@@ -541,12 +596,6 @@ def bulk_generate(target_category: str = None):
         for i, theme in enumerate(themes):
             current += 1
             date_str = (base_date - timedelta(days=current)).strftime("%Y-%m-%d")
-            # 生成済みスラッグ推定（テーマから簡易チェック）
-            existing_slugs = {f.stem.split("-", 3)[-1] for f in POSTS_DIR.glob("*.md")}
-            theme_slug_hint = re.sub(r"[^\w]", "-", theme.split("｜")[0])[:30].lower()
-            if any(theme_slug_hint[:10] in s for s in existing_slugs):
-                print(f"  [{current}/{total}] スキップ（生成済み）: {theme[:30]}")
-                continue
             print(f"  [{current}/{total}] {theme[:30]}...")
             try:
                 data = generate_content(theme, category)
