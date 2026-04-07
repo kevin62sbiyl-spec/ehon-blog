@@ -11,9 +11,6 @@
 import anthropic, json, os, re, sys, time
 from datetime import datetime, timedelta
 from pathlib import Path
-from dotenv import load_dotenv
-
-load_dotenv(Path(__file__).parent.parent / ".env")
 
 # ── 設定 ──────────────────────────────────────────────────────
 BASE_DIR  = Path(__file__).parent.parent
@@ -234,7 +231,7 @@ sectionsは5つ作成。各bodyは必ず500文字以上。book_recommendations�
         try:
             msg = client.messages.create(
                 model="claude-opus-4-5",
-                max_tokens=8000,
+                max_tokens=5000,
                 system=system,
                 messages=[{"role": "user", "content": f"テーマ：「{theme}」\nカテゴリ：{category}\n\n記事を生成してください。"}]
             )
@@ -492,6 +489,7 @@ def generate_index_html(all_posts: list) -> str:
     <nav>
       <a href="index.html">ホーム</a>
       <a href="categories.html">カテゴリ</a>
+      <a href="search.html">検索</a>
       <a href="{yt_ch}" target="_blank" rel="noopener">YouTube</a>
     </nav>
   </div>
@@ -505,6 +503,9 @@ def generate_index_html(all_posts: list) -> str:
   </div>
 </div>
 <main class="container">
+  <div style="text-align:center;margin:2rem 0">
+    <a href="search.html" style="display:inline-flex;align-items:center;gap:8px;padding:14px 32px;background:#1a1814;color:#fff;border-radius:8px;font-size:15px;font-weight:700;text-decoration:none">🔍 記事を検索する</a>
+  </div>
   <p class="section-heading">カテゴリ別おすすめ</p>
   <div class="feat-grid">{feat_html}</div>
   <p class="section-heading">全記事一覧</p>
