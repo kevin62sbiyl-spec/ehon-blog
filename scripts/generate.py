@@ -11,6 +11,9 @@
 import anthropic, json, os, re, sys, time
 from datetime import datetime, timedelta
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).parent.parent / ".env")
 
 # ── 設定 ──────────────────────────────────────────────────────
 BASE_DIR  = Path(__file__).parent.parent
@@ -231,7 +234,7 @@ sectionsは5つ作成。各bodyは必ず500文字以上。book_recommendations�
         try:
             msg = client.messages.create(
                 model="claude-opus-4-5",
-                max_tokens=5000,
+                max_tokens=8000,
                 system=system,
                 messages=[{"role": "user", "content": f"テーマ：「{theme}」\nカテゴリ：{category}\n\n記事を生成してください。"}]
             )
