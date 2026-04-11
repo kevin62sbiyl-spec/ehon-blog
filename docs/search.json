@@ -1,5 +1,766 @@
 [
   {
+    "title": "歴史を学ぶとはどういうことか？過去から未来を読む思考法",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/what-it-means-to-learn-history.html",
+    "category": "歴史",
+    "tags": [
+      "歴史入門",
+      "教養",
+      "思考法"
+    ],
+    "keywords": [
+      "歴史を学ぶ意味",
+      "歴史学習の本質",
+      "歴史的思考法",
+      "過去から学ぶ",
+      "歴史リテラシー"
+    ],
+    "desc": "歴史を学ぶ意味がわからない人へ。暗記科目ではない歴史の本当の価値と、現代を生きる私たちが過去から得られる思考力・判断力を具体例とともに解説します。",
+    "date": "2026-04-11"
+  },
+  {
+    "title": "宗教とは何か？5分でわかる基本と世界の宗教入門",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/what-is-religion-basics.html",
+    "category": "宗教",
+    "tags": [
+      "宗教入門",
+      "世界の宗教",
+      "日本の宗教"
+    ],
+    "keywords": [
+      "宗教とは",
+      "宗教 意味",
+      "世界三大宗教",
+      "宗教 種類",
+      "宗教 日本"
+    ],
+    "desc": "宗教とは何か、なぜ人類は宗教を必要としてきたのかを初心者向けにわかりやすく解説。世界三大宗教の基礎知識から日本人の宗教観まで具体例たっぷりでお届けします。",
+    "date": "2026-04-11"
+  },
+  {
+    "title": "お金・資本とは何か？貝殻から仮想通貨まで5000年の歴史",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/what-is-money-and-capital.html",
+    "category": "お金・資本",
+    "tags": [
+      "お金の基礎知識",
+      "経済史",
+      "資本主義"
+    ],
+    "keywords": [
+      "お金とは",
+      "資本とは",
+      "貨幣の歴史",
+      "お金の仕組み",
+      "資本主義入門"
+    ],
+    "desc": "お金と資本の違いを初心者向けに解説。貝殻が通貨だった時代から現代の仮想通貨まで、人類5000年のマネー史を具体例とエピソードで紐解きます。",
+    "date": "2026-04-11"
+  },
+  {
+    "title": "ITとは何か？スマホの裏側から始める情報技術入門",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/what-is-it-basics-explained.html",
+    "category": "IT",
+    "tags": [
+      "IT基礎知識",
+      "デジタルリテラシー",
+      "テクノロジー入門"
+    ],
+    "keywords": [
+      "ITとは",
+      "情報技術",
+      "IT入門",
+      "IT業界",
+      "デジタル技術"
+    ],
+    "desc": "ITとは何かを初心者向けにわかりやすく解説。スマホやパソコンの仕組みから、IT業界の仕事、私たちの生活との関わりまで具体例で紹介します。",
+    "date": "2026-04-11"
+  },
+  {
+    "title": "言葉と文学の魅力とは？今日から始める教養の扉を開く入門ガイド",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/introduction-to-language-and-literature.html",
+    "category": "言葉と文学",
+    "tags": [
+      "文学入門",
+      "言語学",
+      "読書術"
+    ],
+    "keywords": [
+      "言葉と文学",
+      "文学入門",
+      "言語の魅力",
+      "読書教養",
+      "世界文学"
+    ],
+    "desc": "言葉と文学の世界は難しそう？実は日常の会話やSNSにも文学的技法が溢れています。シェイクスピアから村上春樹まで、知れば人生が豊かになる言語と文学の入門ガイドをお届けします。",
+    "date": "2026-04-11"
+  },
+  {
+    "title": "地球平面説を信じる人の心理とは？現代に残る謎の思想を解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/flat-earth-belief-psychology.html",
+    "category": "哲学・思想",
+    "tags": [
+      "陰謀論",
+      "科学哲学",
+      "批判的思考"
+    ],
+    "keywords": [
+      "地球平面説",
+      "フラットアース",
+      "陰謀論",
+      "科学リテラシー",
+      "認知バイアス"
+    ],
+    "desc": "なぜ21世紀の今も地球平面説を信じる人がいるのか？その心理的背景、歴史、科学との対立を初心者向けにわかりやすく解説。陰謀論に惑わされない思考法も紹介します。",
+    "date": "2026-04-11"
+  },
+  {
+    "title": "禅とは何か｜坐禅・公案・悟りの本質を中級者向けに徹底解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/zen-buddhism-zazen-koan-enlightenment.html",
+    "category": "宗教",
+    "tags": [
+      "仏教",
+      "禅宗",
+      "瞑想"
+    ],
+    "keywords": [
+      "禅とは",
+      "坐禅",
+      "公案",
+      "悟り",
+      "禅宗"
+    ],
+    "desc": "禅の本質を坐禅・公案・悟りの3つの柱から解説。達磨大師から道元・臨済まで、1500年の歴史と現代マインドフルネスとの関係を専門用語とともに丁寧に紐解きます。",
+    "date": "2026-04-09"
+  },
+  {
+    "title": "ストア哲学入門｜マルクス・アウレリウスが実践した不動心の技法",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/stoic-philosophy-marcus-aurelius-guide.html",
+    "category": "哲学・思想",
+    "tags": [
+      "古代哲学",
+      "自己啓発",
+      "メンタルヘルス"
+    ],
+    "keywords": [
+      "ストア哲学",
+      "マルクス・アウレリウス",
+      "自省録",
+      "不動心",
+      "アパテイア"
+    ],
+    "desc": "ローマ皇帝マルクス・アウレリウスが戦場で書き続けた『自省録』から、現代人が使えるストア哲学の核心を解説。不安や怒りに振り回されない心の技術を学びます。",
+    "date": "2026-04-09"
+  },
+  {
+    "title": "スマホだけでは教養が身につかない理由｜レコメンドの罠と中立思考法",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/smartphone-trap-liberal-arts-thinking.html",
+    "category": "教養の基礎",
+    "tags": [
+      "情報リテラシー",
+      "批判的思考",
+      "デジタルデトックス"
+    ],
+    "keywords": [
+      "スマホ 教養",
+      "レコメンド アルゴリズム",
+      "フィルターバブル",
+      "中立的思考",
+      "情報リテラシー"
+    ],
+    "desc": "総務省統計によるとスマホ利用者の7割以上がレコメンド機能に依存。なぜそれが教養の敵になるのか？アルゴリズムの仕組みと脱却法を初心者向けに解説します。",
+    "date": "2026-04-09"
+  },
+  {
+    "title": "自己啓発だけではダメな理由｜哲学との決定的な違いを解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/philosophy-vs-self-help-difference.html",
+    "category": "哲学・思想",
+    "tags": [
+      "哲学入門",
+      "自己啓発批判",
+      "批判的思考"
+    ],
+    "keywords": [
+      "自己啓発 哲学 違い",
+      "自己啓発 限界",
+      "哲学 入門",
+      "考える力",
+      "批判的思考"
+    ],
+    "desc": "なぜ自己啓発本を読んでも人生が変わらないのか？哲学と自己啓発の根本的な違いを解説し、本当の意味で「考える力」を身につける方法を探ります。",
+    "date": "2026-04-09"
+  },
+  {
+    "title": "川端康成「雪国」が描いた日本美の本質｜ノーベル賞作家の美学を読み解く",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/kawabata-yukiguni-japanese-beauty.html",
+    "category": "言葉と文学",
+    "tags": [
+      "近代文学",
+      "ノーベル賞",
+      "日本の美意識"
+    ],
+    "keywords": [
+      "川端康成",
+      "雪国",
+      "日本文学",
+      "ノーベル文学賞",
+      "日本美"
+    ],
+    "desc": "川端康成の代表作「雪国」を徹底解説。冒頭の名文に隠された技巧、駒子のモデル、ノーベル賞受賞の背景まで、日本文学の最高峰が描いた「美」の本質に迫ります。",
+    "date": "2026-04-09"
+  },
+  {
+    "title": "源平合戦とは？武士道の原点となった壮絶な戦いを初心者向けに解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/genpei-war-bushido-japanese-spirit.html",
+    "category": "歴史",
+    "tags": [
+      "日本史",
+      "平安時代",
+      "鎌倉時代"
+    ],
+    "keywords": [
+      "源平合戦",
+      "武士道",
+      "源義経",
+      "平清盛",
+      "壇ノ浦の戦い"
+    ],
+    "desc": "源平合戦がなぜ日本人の精神性を形成したのか？平治の乱から壇ノ浦まで、武士道の原点となった壮絶なドラマを具体的なエピソードで解説します。",
+    "date": "2026-04-09"
+  },
+  {
+    "title": "歴史を学ぶ意味とは？過去を知る人だけが未来を読める理由",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/why-learning-history-matters.html",
+    "category": "教養の基礎",
+    "tags": [
+      "歴史",
+      "教養入門",
+      "思考力"
+    ],
+    "keywords": [
+      "歴史を学ぶ意味",
+      "歴史 なぜ学ぶ",
+      "教養 歴史",
+      "歴史 ビジネス",
+      "過去から学ぶ"
+    ],
+    "desc": "「歴史なんて暗記科目でしょ？」と思っていませんか。実は歴史を学ぶ人は、ビジネスでも人生でも先が読める。その理由を具体例とともに解説します。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "プロンプトエンジニアリング入門｜AIを思い通りに動かす言葉の技術",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/prompt-engineering-basics-for-beginners.html",
+    "category": "IT",
+    "tags": [
+      "AI活用",
+      "ChatGPT",
+      "仕事効率化"
+    ],
+    "keywords": [
+      "プロンプトエンジニアリング",
+      "ChatGPT 使い方",
+      "AI 活用法",
+      "プロンプト 書き方",
+      "生成AI 初心者"
+    ],
+    "desc": "ChatGPTなどの生成AIを使いこなすプロンプトエンジニアリングの基礎を初心者向けに解説。具体例とテンプレートで今日から実践できる言葉の技術を身につけよう。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "【哲学入門④】マルクス・ニーチェ・ハイデガー・ウィトゲンシュタインの思想を解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/philosophy-intro-4-human-existence-society.html",
+    "category": "哲学・思想",
+    "tags": [
+      "哲学入門",
+      "実存主義",
+      "言語哲学"
+    ],
+    "keywords": [
+      "マルクス哲学",
+      "ニーチェ超人",
+      "ハイデガー存在と時間",
+      "ウィトゲンシュタイン言語哲学",
+      "近現代哲学入門"
+    ],
+    "desc": "近現代哲学の巨人4人の思想を徹底解説。マルクスの疎外論、ニーチェの超人思想、ハイデガーの存在論、ウィトゲンシュタインの言語哲学まで、人間存在と社会の本質に迫る哲学入門の決定版。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "スヌーピーは哲学書だった｜チャーリー・ブラウンが教える生きる知恵",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/peanuts-philosophy-charlie-brown-wisdom.html",
+    "category": "哲学・思想",
+    "tags": [
+      "スヌーピー",
+      "実存主義",
+      "幸福論"
+    ],
+    "keywords": [
+      "スヌーピー 哲学",
+      "チャーリー・ブラウン 名言",
+      "ピーナッツ 人生",
+      "シュルツ 思想",
+      "実存主義 漫画"
+    ],
+    "desc": "『ピーナッツ』は単なる漫画ではなく深遠な哲学書です。チャーリー・ブラウンの挫折、ライナスの毛布、スヌーピーの自由から、実存主義や幸福論を読み解き、現代を生きるヒントを探ります。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "理性と経験の時代｜ベーコン・デカルト・カント・ヘーゲルが切り開いた近代哲学入門",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/modern-philosophy-bacon-descartes-kant-hegel.html",
+    "category": "哲学・思想",
+    "tags": [
+      "西洋哲学史",
+      "啓蒙思想",
+      "認識論"
+    ],
+    "keywords": [
+      "近代哲学",
+      "デカルト",
+      "カント",
+      "ヘーゲル",
+      "経験論と合理論"
+    ],
+    "desc": "近代哲学の四巨頭、ベーコン・デカルト・カント・ヘーゲルの思想を徹底解説。経験論と合理論の対立からカントの批判哲学、ヘーゲル弁証法まで、現代社会を理解する鍵がここにあります。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "【哲学入門①】タレスからアリストテレスまで｜西洋哲学の誕生と知の土台",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/greek-philosophy-birth-thales-socrates-plato-aristotle.html",
+    "category": "哲学・思想",
+    "tags": [
+      "西洋哲学史",
+      "古代ギリシャ",
+      "哲学の基礎"
+    ],
+    "keywords": [
+      "古代ギリシャ哲学",
+      "ソクラテス",
+      "プラトン",
+      "アリストテレス",
+      "哲学入門"
+    ],
+    "desc": "なぜ哲学は古代ギリシャで生まれたのか？タレス、ソクラテス、プラトン、アリストテレスが築いた「問い」の原型を、具体的エピソードとともに解説。現代を生きる私たちへの示唆も。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "ChatGPTの使い方完全入門｜社会人が今すぐ使える活用術10選",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/chatgpt-beginner-guide-business-tips.html",
+    "category": "IT",
+    "tags": [
+      "ChatGPT",
+      "AI活用",
+      "仕事効率化"
+    ],
+    "keywords": [
+      "ChatGPT 使い方",
+      "ChatGPT 活用術",
+      "ChatGPT 初心者",
+      "ChatGPT ビジネス",
+      "AI 仕事効率化"
+    ],
+    "desc": "ChatGPTを使いこなしたい社会人必見。メール作成から議事録要約まで、今日から実践できる具体的な活用術10選を初心者向けにわかりやすく解説します。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "本屋のすすめ｜書店に行くことが最高の教養になる5つの理由",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/bookstore-best-liberal-arts.html",
+    "category": "教養の基礎",
+    "tags": [
+      "読書",
+      "書店",
+      "教養入門"
+    ],
+    "keywords": [
+      "本屋 教養",
+      "書店 メリット",
+      "読書習慣",
+      "本との出会い",
+      "リアル書店"
+    ],
+    "desc": "なぜ今、本屋に足を運ぶことが最高の教養になるのか。ネット書店にはない偶然の出会い、五感を使った知的体験、書店員のキュレーションなど、リアル書店の価値を徹底解説します。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "アウグスティヌスとトマス・アクィナス｜信仰と理性を統合した中世哲学の核心",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/augustine-aquinas-faith-reason-harmony.html",
+    "category": "哲学・思想",
+    "tags": [
+      "中世哲学",
+      "キリスト教哲学",
+      "神学"
+    ],
+    "keywords": [
+      "アウグスティヌス",
+      "トマス・アクィナス",
+      "中世哲学",
+      "信仰と理性",
+      "スコラ哲学"
+    ],
+    "desc": "「信じるために理解する」アウグスティヌスと「理解するために信じる」トマス・アクィナス。中世哲学の二大巨頭が挑んだ信仰と理性の調和を、具体的エピソードとともに解説します。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "AIに仕事を奪われない人の共通点｜人間にしかできない本質とは",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/ai-cannot-replace-human-skills.html",
+    "category": "IT",
+    "tags": [
+      "AI",
+      "キャリア",
+      "働き方"
+    ],
+    "keywords": [
+      "AI 仕事 奪われない",
+      "人間にしかできないこと",
+      "AI時代 スキル",
+      "AIと共存",
+      "将来性のある仕事"
+    ],
+    "desc": "AIが急速に進化する中、奪われない仕事と人間の強みを徹底解説。認知科学・労働経済学の知見から、これからの時代に必要なスキルと思考法を具体例とともに紹介します。",
+    "date": "2026-04-08"
+  },
+  {
+    "title": "ルターの宗教改革とは？95ヶ条の論題が世界を変えた瞬間を解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/luther-reformation-95-theses.html",
+    "category": "宗教",
+    "tags": [
+      "キリスト教史",
+      "宗教改革",
+      "ヨーロッパ史"
+    ],
+    "keywords": [
+      "ルター",
+      "宗教改革",
+      "95ヶ条の論題",
+      "プロテスタント",
+      "贖宥状"
+    ],
+    "desc": "1517年、一人の修道士が教会の扉に貼り出した文書が世界史を変えました。マルティン・ルターの宗教改革の本質を、贖宥状問題から現代への影響まで初心者向けにわかりやすく解説します。",
+    "date": "2026-04-07"
+  },
+  {
+    "title": "免罪符とは何か｜カトリック教会の腐敗が宗教改革を招いた理由",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/indulgence-catholic-corruption-reformation.html",
+    "category": "宗教",
+    "tags": [
+      "キリスト教史",
+      "ルネサンス",
+      "中世ヨーロッパ"
+    ],
+    "keywords": [
+      "免罪符",
+      "宗教改革",
+      "マルティン・ルター",
+      "カトリック教会",
+      "95か条の論題"
+    ],
+    "desc": "免罪符とは何か？お金で罪が許される仕組みがなぜ生まれ、ルターの宗教改革につながったのか。16世紀ヨーロッパの教会腐敗と信仰の本質を初心者向けに解説します。",
+    "date": "2026-04-07"
+  },
+  {
+    "title": "福沢諭吉「学問のすすめ」天は人の上に人を造らずの本当の意味とは",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/fukuzawa-gakumon-no-susume-true-meaning.html",
+    "category": "教養の基礎",
+    "tags": [
+      "福沢諭吉",
+      "学問のすすめ",
+      "明治時代",
+      "教養書"
+    ],
+    "keywords": [
+      "学問のすすめ",
+      "福沢諭吉",
+      "天は人の上に人を造らず",
+      "意味",
+      "要約"
+    ],
+    "desc": "「天は人の上に人を造らず」は平等の宣言ではなかった？福沢諭吉『学問のすすめ』の冒頭が本当に伝えたかったメッセージを、原文と時代背景から初心者向けにわかりやすく解説します。",
+    "date": "2026-04-07"
+  },
+  {
+    "title": "世界のエリートが読む教養書100冊｜知的生活を始める最短ルート",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/elite-liberal-arts-books-100.html",
+    "category": "教養の基礎",
+    "tags": [
+      "読書術",
+      "教養書リスト",
+      "知的生活"
+    ],
+    "keywords": [
+      "教養書",
+      "エリート 読書",
+      "知的生活",
+      "古典 名著",
+      "リベラルアーツ"
+    ],
+    "desc": "ハーバード・オックスフォードのエリートたちは何を読んでいるのか？古典から現代の名著まで、教養の土台を築く100冊を厳選。今日から始める知的生活の第一歩を具体的に解説します。",
+    "date": "2026-04-07"
+  },
+  {
+    "title": "アリストテレスが処刑を免れた理由｜ソクラテスとの決定的な違い",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/aristotle-escaped-execution-philosophers-and-power.html",
+    "category": "哲学・思想",
+    "tags": [
+      "古代ギリシア",
+      "西洋哲学史",
+      "政治と思想"
+    ],
+    "keywords": [
+      "アリストテレス",
+      "ソクラテス",
+      "古代ギリシア哲学",
+      "不敬罪",
+      "哲学者と権力"
+    ],
+    "desc": "ソクラテスは毒杯を飲み、アリストテレスは亡命した。同じ「不敬罪」で告発された二人の哲学者の運命を分けたものとは？権力と知識人の緊張関係を古代ギリシアから読み解きます。",
+    "date": "2026-04-07"
+  },
+  {
+    "title": "AIが人間を超えられない理由｜300年前の哲学者ライプニッツの答え",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/ai-cannot-surpass-humans-leibniz-philosophy.html",
+    "category": "IT",
+    "tags": [
+      "AI・機械学習",
+      "哲学",
+      "テクノロジー論"
+    ],
+    "keywords": [
+      "AI 人間 超える",
+      "ライプニッツ モナド論",
+      "AI 限界",
+      "人工知能 哲学",
+      "ChatGPT 意識"
+    ],
+    "desc": "ChatGPTやAIは人間を超えるのか？この問いに300年前のライプニッツが哲学的回答を出していた。モナド論から読み解くAIの本質的限界と人間の不可侵領域を解説します。",
+    "date": "2026-04-07"
+  },
+  {
+    "title": "なぜ今、教養が必要なのか？斎藤孝が語る知の力と人生の解像度",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/why-liberal-arts-needed-now-saito-takashi.html",
+    "category": "教養の基礎",
+    "tags": [
+      "教養入門",
+      "斎藤孝",
+      "自己啓発"
+    ],
+    "keywords": [
+      "教養とは",
+      "斎藤孝",
+      "なぜ教養が必要",
+      "リベラルアーツ",
+      "人生の解像度"
+    ],
+    "desc": "AIに仕事を奪われる時代、なぜ教養が重要なのか？斎藤孝の視点から「人生の解像度を上げる知の力」を具体例とともに解説。明日から実践できる教養の身につけ方も紹介します。",
+    "date": "2026-04-06"
+  },
+  {
+    "title": "教養とは何か？知識・技術・知恵の違いと本当の学びを解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/what-is-kyoyo-knowledge-wisdom-difference.html",
+    "category": "教養の基礎",
+    "tags": [
+      "教養入門",
+      "学び直し",
+      "リベラルアーツ"
+    ],
+    "keywords": [
+      "教養とは",
+      "知識と知恵の違い",
+      "リベラルアーツ",
+      "社会人の学び直し",
+      "教養の意味"
+    ],
+    "desc": "教養とは単なる知識の蓄積ではありません。知識・技術・知恵の違いを具体例で解説し、なぜ今ビジネスパーソンに教養が求められるのか、本当の学びの意味を初心者向けにわかりやすく紹介します。",
+    "date": "2026-04-06"
+  },
+  {
+    "title": "教養のある人とない人の決定的な差｜なぜ知性が社会で武器になるのか",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/kyoyo-aru-nai-hito-chigai-shakai-chisei.html",
+    "category": "教養の基礎",
+    "tags": [
+      "教養入門",
+      "自己成長",
+      "コミュニケーション"
+    ],
+    "keywords": [
+      "教養のある人",
+      "教養とは",
+      "知性 必要性",
+      "教養 身につけ方",
+      "社会人 教養"
+    ],
+    "desc": "教養がある人とない人は何が違うのか？会話・判断力・人間関係で差がつく理由を具体例で解説。今日からできる教養の身につけ方も紹介します。",
+    "date": "2026-04-06"
+  },
+  {
+    "title": "IT教養入門｜デジタル社会で恥をかかない基礎知識を徹底解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/it-literacy-basics-for-digital-society.html",
+    "category": "IT",
+    "tags": [
+      "IT入門",
+      "デジタルリテラシー",
+      "社会人スキル"
+    ],
+    "keywords": [
+      "IT教養",
+      "デジタルリテラシー",
+      "IT基礎知識",
+      "クラウドとは",
+      "情報セキュリティ入門"
+    ],
+    "desc": "クラウド、AI、セキュリティなどIT用語がわからず困っていませんか？デジタル社会を生きる社会人が最低限知っておくべきIT基礎知識を、専門用語なしでわかりやすく解説します。",
+    "date": "2026-04-06"
+  },
+  {
+    "title": "インターネットの仕組みとは？データが世界を飛び交う驚きの旅路",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/how-internet-works-data-travels.html",
+    "category": "IT",
+    "tags": [
+      "インターネット",
+      "ネットワーク",
+      "IT基礎知識"
+    ],
+    "keywords": [
+      "インターネット 仕組み",
+      "データ通信 仕組み",
+      "海底ケーブル",
+      "IPアドレス わかりやすく",
+      "パケット通信"
+    ],
+    "desc": "スマホでタップした瞬間、データはどこをどう通って届くのか？海底ケーブルからIPアドレスまで、インターネットの仕組みを初心者向けにわかりやすく解説します。",
+    "date": "2026-04-06"
+  },
+  {
+    "title": "AIとは何か？機械学習・深層学習を文系でも5分でわかる解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/ai-machine-learning-deep-learning-basics.html",
+    "category": "IT",
+    "tags": [
+      "AI入門",
+      "機械学習",
+      "テクノロジー教養"
+    ],
+    "keywords": [
+      "AI とは",
+      "機械学習 わかりやすく",
+      "深層学習 入門",
+      "人工知能 文系",
+      "ChatGPT 仕組み"
+    ],
+    "desc": "AI・機械学習・深層学習の違いを専門用語なしで解説。ChatGPTやスマホの顔認証など身近な例で、文系の方でも「なるほど！」と納得できる入門ガイドです。",
+    "date": "2026-04-06"
+  },
+  {
+    "title": "世阿弥「風姿花伝」とは？650年伝わる「秘すれば花」の美学を解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/zeami-fushikaden-secret-beauty.html",
+    "category": "芸術",
+    "tags": [
+      "日本古典",
+      "能楽",
+      "美学・哲学"
+    ],
+    "keywords": [
+      "風姿花伝",
+      "世阿弥",
+      "秘すれば花",
+      "能楽",
+      "日本の美学"
+    ],
+    "desc": "室町時代の能楽師・世阿弥が著した「風姿花伝」を初心者向けに解説。「秘すれば花」の本当の意味から、現代のプレゼンや人間関係に活かせる知恵まで、具体例とともに紹介します。",
+    "date": "2026-04-03"
+  },
+  {
+    "title": "徒然草とは？吉田兼好が教える700年色褪せない人生の知恵",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/yoshida-kenko-tsurezuregusa-wisdom.html",
+    "category": "言葉と文学",
+    "tags": [
+      "日本古典",
+      "随筆",
+      "生き方"
+    ],
+    "keywords": [
+      "徒然草",
+      "吉田兼好",
+      "無常観",
+      "古典文学",
+      "人生の知恵"
+    ],
+    "desc": "「徒然草」はなぜ700年も読まれ続けるのか？吉田兼好の無常観と人生訓を、現代に活きる具体的エピソードとともにわかりやすく解説。仕事や人間関係に悩む社会人必読の古典入門。",
+    "date": "2026-04-03"
+  },
+  {
+    "title": "渋沢栄一「論語的経営」とは？現代ビジネスに活かす5つの教え",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/shibusawa-eiichi-rongo-management.html",
+    "category": "お金と資本",
+    "tags": [
+      "渋沢栄一",
+      "経営哲学",
+      "論語と算盤"
+    ],
+    "keywords": [
+      "渋沢栄一",
+      "論語と算盤",
+      "論語的経営",
+      "日本資本主義の父",
+      "ビジネス哲学"
+    ],
+    "desc": "新1万円札の顔・渋沢栄一が実践した「論語と算盤」の経営哲学を初心者向けに解説。500社を育てた日本資本主義の父から学ぶ、利益と道徳を両立させる5つの実践的教えを紹介します。",
+    "date": "2026-04-03"
+  },
+  {
+    "title": "西田幾多郎「善の研究」とは？純粋経験の哲学を徹底解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/nishida-kitaro-zen-no-kenkyu-pure-experience.html",
+    "category": "哲学・思想",
+    "tags": [
+      "日本思想",
+      "近代哲学",
+      "禅と哲学"
+    ],
+    "keywords": [
+      "西田幾多郎",
+      "善の研究",
+      "純粋経験",
+      "日本哲学",
+      "京都学派"
+    ],
+    "desc": "日本初の本格的哲学書「善の研究」の核心概念「純粋経験」を丁寧に解説。西田幾多郎が禅と西洋哲学を融合させて到達した独自の思想とその現代的意義を探ります。",
+    "date": "2026-04-03"
+  },
+  {
+    "title": "ヒンドゥー教の三大神｜ブラフマー・ヴィシュヌ・シヴァの役割と象徴を解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/hindu-gods-brahma-vishnu-shiva.html",
+    "category": "宗教",
+    "tags": [
+      "インド宗教",
+      "トリムールティ",
+      "ヒンドゥー哲学"
+    ],
+    "keywords": [
+      "ヒンドゥー教",
+      "三大神",
+      "ブラフマー",
+      "ヴィシュヌ",
+      "シヴァ"
+    ],
+    "desc": "ヒンドゥー教の最高神ブラフマー・ヴィシュヌ・シヴァは何を象徴するのか？創造・維持・破壊の三位一体「トリムールティ」の意味と現代インドでの信仰を初心者向けに解説します。",
+    "date": "2026-04-03"
+  },
+  {
+    "title": "古代インカ帝国の謎｜文字なき巨大文明の繁栄と滅亡を徹底解説",
+    "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/ancient-inca-civilization-mystery.html",
+    "category": "歴史",
+    "tags": [
+      "世界史",
+      "南米史",
+      "古代文明"
+    ],
+    "keywords": [
+      "インカ帝国",
+      "マチュピチュ",
+      "古代文明",
+      "キープ",
+      "アンデス文明"
+    ],
+    "desc": "文字を持たずに1000万人を統治したインカ帝国。マチュピチュ建設の驚異的技術から168人のスペイン兵に滅ぼされた悲劇まで、古代文明の謎と教訓をわかりやすく解説します。",
+    "date": "2026-04-03"
+  },
+  {
     "title": "ウェーバー『プロ倫』を読み解く｜宗教が資本主義を生んだ理由",
     "url": "https://kevin62sbiyl-spec.github.io/ehon-blog/posts/weber-protestant-ethic-capitalism.html",
     "category": "お金と資本",
